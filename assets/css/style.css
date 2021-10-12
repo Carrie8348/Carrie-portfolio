@@ -6,12 +6,19 @@
     border: none;
 }
 
-/* logo */
-.logo {
-    font-family: 'bangers', serif;
-}
-
 Body {
     font-family: Roboto, sans-serif;
     font-weight: 300;
+}
+
+/* headings and logo */
+h1, h2 {
+    font-family: 'Bangers', serif;
+    letter-spacing: 2px;
+    color: #214da5;
+}
+
+#logo {
+    float: left;
+    font-size: 300%;
 }
