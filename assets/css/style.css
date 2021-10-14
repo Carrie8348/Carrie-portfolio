@@ -13,7 +13,7 @@ Body {
 }
 
 /* headings and logo */
-h1, h2 {
+h1 {
     font-family: 'Bangers', serif;
     letter-spacing: 2px;
     color: #214da5;
@@ -22,6 +22,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 200%;
+    padding-left:20px;
 }
 
 /* navigation links */
@@ -47,6 +48,18 @@ h1, h2 {
 
 #menu a:hover {
     color: #e95840;
+}
+
+/* main page picture section */
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
+}
+
+img {
+    max-width: 400px;
 }
 
 
