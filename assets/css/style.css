@@ -84,3 +84,23 @@ footer {
     color:#214da5;
 }
 
+/* for big screen sizes 1200px */
+@media screen and (max-width:1200px) {
+    
+}
+
+/* for middle screen sizes 950px and down */
+@media screen and (max-width: 950px) {
+    #photos {
+        column-count: 3;;
+    }
+    
+}
+
+/* for small screen sizes 800px and down */
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
+    }
+    
+}
