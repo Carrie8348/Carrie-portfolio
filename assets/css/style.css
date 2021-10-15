@@ -50,21 +50,44 @@ h1 {
     color: #e95840;
 }
 
-/* main page picture section */
-#photos {
+/* page titles */
+.page-titles {
+    height: 70px;
     clear: both;
-    line-height: 0;
+}
+
+h3 {
+    font-family: 'Bangers', serif;
+    color: #214da5;
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 4px;
+}
+
+/* main page linkable picture section */
+#photo-wall {
+    clear: both;
+    height: 800px;
     column-count: 3;
+    margin-left: 20px;
+    margin-right: 150px;
     column-gap: 0px;
-    padding-top: 2%;
+    line-height: 2px;
+}
+
+.gallery {
+    clear: both;
     margin-left: 50px;
     margin-right: 50px;
+    border: none;
+    float: left;
+    width: 150px;
 }
 
-#photos > img {
-    max-width: 100%;
+.gallery img {
+    max-width: 414.5px;
+    height: auto;
 }
-
 
 /* footer */
 footer {
@@ -85,30 +108,6 @@ footer {
     margin: 1%;
     padding: 5%;
     color:#214da5;
-}
-
-/* gallery */
-#photo-wall {
-    clear: both;
-    height: 800px;
-    column-count: 3;
-    margin-left: 5px;
-    margin-right: 120px;
-    column-gap: 20px;
-}
-
-.gallery {
-    clear: both;
-    margin-left: 50px;
-    margin-right: 50px;
-    border: none;
-    float: left;
-    width: 150px;
-}
-
-.gallery img {
-    max-width: 400px;
-    height: auto;
 }
 
 /* videos */
