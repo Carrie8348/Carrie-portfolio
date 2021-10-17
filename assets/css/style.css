@@ -230,12 +230,21 @@ footer > a:hover{
 }
 
 
-
-
 /* for middle screen sizes 950px and down */
 @media screen and (max-width: 950px) {
     #photo-wall {
         column-count: 2;
+    }
+
+    .gallery img {
+        width: 250px;
+        height: auto;
+    }
+
+    .page-titles {
+        float: center;
+        font-size: 70%;
+        height: 60px;
     }
     
 }
@@ -244,6 +253,17 @@ footer > a:hover{
 @media screen and (max-width: 800px) {
     #photo-wall {
         column-count: 1;
+    }
+
+    .gallery img {
+        width: 150px;
+        height: auto;
+    }
+
+    .page-titles{
+        float: center;
+        font-size: 50%;
+        height: 60px;
     }
     
 }
