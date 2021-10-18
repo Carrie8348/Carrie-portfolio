@@ -115,6 +115,33 @@ footer > a:hover{
     color:#e95840;
 }
 
+/* About Page */
+#bio {
+    clear: both;
+    height: 420px;
+    padding-top: 80px;
+    margin-left: 550px;
+    margin-right: 300px;
+    row-gap: 10px;
+    text-align: left; 
+}
+
+.bio-text {
+    padding-bottom: 30px;
+}
+
+.bio-text h2 {
+    font-family: 'Bangers', serif;
+    padding: 5px;
+}
+
+.bio-text p {
+    font-family: roboto, serif;
+    font-size: 15px;
+}
+
+
+
 /* contact page */
 .form-section {
     clear: left;
@@ -216,7 +243,7 @@ footer > a:hover{
     opacity: 1;
     right: 0;
   }
-}
+
 
 /* videos */
 #video {
