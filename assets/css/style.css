@@ -51,7 +51,7 @@ h1 {
     color: #e95840;
 }
 
-/* page titles */
+/* page titles on projects page */
 .page-titles {
     height: 70px;
     clear: both;
@@ -65,7 +65,7 @@ h3 {
     letter-spacing: 4px;
 }
 
-/* main page linkable picture section */
+/* projects page linkable picture section */
 #photo-wall {
     clear: both;
     height: 800px;
