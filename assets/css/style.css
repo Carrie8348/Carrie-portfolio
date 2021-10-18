@@ -117,22 +117,21 @@ footer > a:hover{
 
 /* About Page */
 #bio {
-    clear: both;
-    height: 420px;
-    padding-top: 80px;
-    margin-left: 550px;
-    margin-right: 300px;
-    row-gap: 10px;
-    text-align: left; 
+    width: 100%;
+    height: auto;
+    padding-top: 150px;
+    margin-left: 80px;
 }
 
 .bio-text {
-    padding-bottom: 30px;
+    padding-bottom: 60px;
+    margin-right: 200px;
+    clear: right;
 }
 
 .bio-text h2 {
     font-family: 'Bangers', serif;
-    padding: 5px;
+    padding: 10px;
 }
 
 .bio-text p {
@@ -140,6 +139,13 @@ footer > a:hover{
     font-size: 15px;
 }
 
+#bio-pic img {
+    clear: left;
+    width: 17%;
+    margin: 0 2%;
+    float: left;
+
+}
 
 
 /* contact page */
