@@ -147,7 +147,7 @@ h3 {
 
 .bio-text p {
     font-family: roboto, serif;
-    font-size: 15px;
+    font-size: 0.9rem;
 }
 
 #bio-pic img {
@@ -416,14 +416,14 @@ h3 {
 
     #bio-pic img {
         clear: both;
-        width: 50%;
+        width: 70%;
         float: left;
         padding: 0;
 
     }
 
     #bio-text h2{
-        width: 100%;
+        width: 200%;
         text-align: center;
     }
 
