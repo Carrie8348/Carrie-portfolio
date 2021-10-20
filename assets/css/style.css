@@ -51,52 +51,6 @@ h1 {
     color: #e95840;
 }
 
-/* main page bg */
-#main-page-center {
-    height: 600px;
-}
-
-#main-page-bg {
-    clear: both;
-    padding-top: 0;
-    margin-left: 300px;
-    margin-right: 300px;
-    width: 800px;
-    height: auto;
-    
-}
-
-/* page titles on projects page */
-.page-titles {
-    height: 70px;
-    clear: both;
-}
-
-h3 {
-    font-family: 'Bangers', serif;
-    color: #000000;
-    text-align: center;
-    font-weight: 100;
-    letter-spacing: 4px;
-}
-
-/* projects page linkable picture section */
-#container {
-   display: grid;
-   grid-row-gap:5px;
-   grid-template-columns: auto auto auto;
-   padding: 10px;
-}
-
-.gallery {
-    padding: 20px;
-}
-
-.gallery img {
-    width: 420px;
-    height: auto;
-}
-
 
 /* footer */
 footer {
@@ -121,6 +75,55 @@ footer {
 
 footer > a:hover{
     color:#e95840;
+}
+
+/* main page */
+
+/* main page bg */
+#main-page-center {
+    height: 600px;
+}
+
+#main-page-bg {
+    clear: both;
+    padding-top: 0;
+    margin-left: 300px;
+    margin-right: 300px;
+    width: 800px;
+    height: auto;   
+}
+
+/* project page */
+
+/* projects page linkable picture section */
+#container {
+   display: grid;
+   grid-row-gap:5px;
+   grid-template-columns: auto auto auto;
+   padding: 10px;
+}
+
+.gallery {
+    padding: 20px;
+}
+
+.gallery img {
+    width: 420px;
+    height: auto;
+}
+
+/* page titles on projects page */
+.page-titles {
+    height: 70px;
+    clear: both;
+}
+
+h3 {
+    font-family: 'Bangers', serif;
+    color: #000000;
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 4px;
 }
 
 /* About Page */
@@ -149,12 +152,10 @@ footer > a:hover{
 
 #bio-pic img {
     clear: right;
-    width: 17%;
+    width: 20%;
     margin: 0 2%;
     float: left;
-
 }
-
 
 /* contact page */
 .form-section {
@@ -305,7 +306,10 @@ footer > a:hover{
     }
 
     .page-titles {
-        left: 0;
+        float: center;
+        font-size: 70%;
+        height: 60px;
+        padding-top: 30px;
     }
 
     #bio {
@@ -314,22 +318,29 @@ footer > a:hover{
         margin: 0 auto;
     }
 
+    #bio-text {
+        width: 90%;
+    }
+
     #bio-pic img {
         clear: both;
-        width: 70%;
+        width: 90%;
         float: left;
         padding: 0;
+        margin-left: 35px;
 
     }
 
     #bio-text h2{
-        width: 100%;
-        text-align: center;
+        padding: 0px, 0;
+        margin: 0;
     }
 
     #bio-text p {
-        text-align: right;
-        padding: 10px 5px 10px 5px; 
+        text-align: center;
+        margin-left: 35px;
+        margin-right: 10px;
+        
     }
 
 
@@ -337,27 +348,22 @@ footer > a:hover{
         grid-template-columns: auto auto;
         float: center;
     }
-
-    
-
-    .page-titles {
-        float: center;
-        font-size: 70%;
-        height: 60px;
+      
 
      #video {
         overflow: hidden;
-        padding-bottom: 50%;
+        padding-bottom: 70%;
         position: relative;
         height: 0;
     }
 
     .youtube-video iframe {
         position: absolute;
+        margin-left: 70px;
         top: 0;
         left: 0;
-        width: 50%;
-        height: 50%;
+        max-width: 90%;
+        height: 90%;
     }
     
 }
@@ -396,7 +402,11 @@ footer > a:hover{
     }
 
     .page-titles {
-        left: 0;
+        float: center;
+        font-size: 70%;
+        height: 60px;
+        padding-top: 30px;
+    }
 
     #bio {
         width: 70%;
@@ -406,7 +416,7 @@ footer > a:hover{
 
     #bio-pic img {
         clear: both;
-        width: 70%;
+        width: 50%;
         float: left;
         padding: 0;
 
@@ -432,10 +442,19 @@ footer > a:hover{
         height: auto;
     }
 
-    .page-titles{
-        float: center;
-        font-size: 50%;
-        height: 60px;
+    #video {
+        overflow: hidden;
+        padding-bottom: 50%;
+        position: relative;
+        height: 0;
     }
+
+    .youtube-video iframe {
+        position: absolute;
+        margin-left: 70px;
+        top: 0;
+        left: 0;
+        max-width: 70%;
+        height: 70%;
     
 }
