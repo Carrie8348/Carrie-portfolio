@@ -81,29 +81,22 @@ h3 {
 }
 
 /* projects page linkable picture section */
-#photo-wall {
-    clear: both;
-    height: 800px;
-    column-count: 3;
-    margin-left: 20px;
-    margin-right: 150px;
-    column-gap: 0px;
-    line-height: 2px;
+#container {
+   display: grid;
+   grid-row-gap:5px;
+   grid-template-columns: auto auto auto;
+   padding: 10px;
 }
 
 .gallery {
-    clear: both;
-    margin-left: 50px;
-    margin-right: 50px;
-    border: none;
-    float: left;
-    width: 150px;
+    padding: 20px;
 }
 
 .gallery img {
-    max-width: 414.5px;
+    width: 420px;
     height: auto;
 }
+
 
 /* footer */
 footer {
@@ -155,7 +148,7 @@ footer > a:hover{
 }
 
 #bio-pic img {
-    clear: left;
+    clear: right;
     width: 17%;
     margin: 0 2%;
     float: left;
@@ -280,21 +273,79 @@ footer > a:hover{
 
 /* for middle screen sizes 950px and down */
 @media screen and (max-width: 950px) {
-    #photo-wall {
-        column-count: 2;
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
     }
 
-    .gallery img {
-        width: 250px;
-        height: auto;
+    #footer {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
     }
+
+    #main-page-center: {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+    }
+
+    #main-page-bg {
+        clear: left;
+        float: left;
+        height: 70%;
+        width: auto;
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .page-titles {
+        left: 0;
+    }
+
+    #bio {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    #bio-pic img {
+        clear: both;
+        width: 70%;
+        float: left;
+        padding: 0;
+
+    }
+
+    #bio-text h2{
+        width: 100%;
+        text-align: center;
+    }
+
+    #bio-text p {
+        text-align: right;
+        padding: 10px 5px 10px 5px; 
+    }
+
+
+    #container {
+        grid-template-columns: auto auto;
+        float: center;
+    }
+
+    
 
     .page-titles {
         float: center;
         font-size: 70%;
         height: 60px;
 
-    #video{
+     #video {
         overflow: hidden;
         padding-bottom: 50%;
         position: relative;
@@ -308,18 +359,76 @@ footer > a:hover{
         width: 50%;
         height: 50%;
     }
-    }
     
 }
 
 /* for small screen sizes 800px and down */
 @media screen and (max-width: 800px) {
-    #photo-wall {
-        column-count: 1;
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 25px;
+        margin-bottom: 15px;
+        line-height: 20px;
+    }
+
+    #footer {
+        clear: left;
+        float: left;
+        margin-left: 25px;
+        margin-bottom: 15px;
+        line-height: 20px;
+    }
+
+    #main-page-center: {
+        clear: left;
+        float: left;
+        margin-left: 25px;
+    }
+
+    #main-page-bg {
+        clear: left;
+        float: left;
+        height: 65%;
+        width: auto;
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .page-titles {
+        left: 0;
+
+    #bio {
+        width: 70%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    #bio-pic img {
+        clear: both;
+        width: 70%;
+        float: left;
+        padding: 0;
+
+    }
+
+    #bio-text h2{
+        width: 100%;
+        text-align: center;
+    }
+
+    #bio-text p {
+        text-align: right;
+        padding: 10px 5px 10px 5px; 
+    }
+
+    #container {
+        grid-template-columns: auto;
     }
 
     .gallery img {
-        width: 150px;
+        margin-left: 50px;
+        width: 300px;
         height: auto;
     }
 
