@@ -133,11 +133,9 @@ h3 {
 }
 
 .bio-text {
-    max-width: 1700px;
     padding-bottom: 60px;
-    margin-right: 200px;
+    margin-right: 100px;
     clear: right;
-    padding-right: 30px;
 }
 
 #bio-pic img {
@@ -333,10 +331,9 @@ h3 {
         margin: 0 auto;
     }
 
-    #bio-text {
-        max-width: 80%;
-        margin-left: 35px;
-        
+    .bio-text  {
+         text-align: left;
+         padding-left: 50px;
     }
 
     #bio-pic img {
@@ -436,15 +433,13 @@ h3 {
         width: 70%;
         float: left;
         padding: 0;
-        margin-bottom:20px;
+        padding-left: 50px;
 
     }
 
-    #bio-text {
-        clear: both;
-        width: 100%;
-        float: left;
-        margin-left: 100px;
+    .bio-text {
+        text-align: left;
+        padding-left: 105px;
     }
 
     #bio-text h2{
