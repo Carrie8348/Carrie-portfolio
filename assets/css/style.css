@@ -51,6 +51,12 @@ h1 {
     color: #e95840;
 }
 
+/* page titles */
+.page-titles {
+    clear: both;
+    text-align: center;
+  
+}
 
 /* footer */
 footer {
@@ -78,10 +84,8 @@ footer > a:hover{
 }
 
 /* main page */
-
-/* main page bg */
 #main-page-center {
-    height: 600px;
+    height: 520px;
 }
 
 #main-page-bg {
@@ -95,7 +99,6 @@ footer > a:hover{
 
 /* project page */
 
-/* projects page linkable picture section */
 #container {
    display: grid;
    grid-row-gap:5px;
@@ -110,12 +113,6 @@ footer > a:hover{
 .gallery img {
     width: 420px;
     height: auto;
-}
-
-/* page titles on projects page */
-.page-titles {
-    height: 70px;
-    clear: both;
 }
 
 h3 {
