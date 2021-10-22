@@ -87,6 +87,7 @@ footer > a:hover{
 /* main page */
 #main-page-center {
     height: 820px;
+    width：auto；
 }
 
 #main-page-bg {
@@ -341,7 +342,7 @@ h3 {
     #menu {
         clear: left;
         float: left;
-        margin-left: 20px;
+        margin-left: 10px;
         margin-bottom: 15px;
         line-height: 10px;
         font-size: 80%;
