@@ -237,8 +237,8 @@ h3 {
 }
 
 
-/* for middle screen sizes 1024px and down */
-@media screen and (max-width: 1024px) {
+/* for middle screen sizes 1112px and down */
+@media screen and (max-width: 1112px) {
     #menu {
         clear: left;
         float: left;
@@ -263,14 +263,14 @@ h3 {
         float: left;
         margin-left: 250px;
         margin-bottom: 30px;
-        height: 50%;
+        height: 70%;
     }
 
     #main-page-bg {
         clear: left;
         float: left;
         height: auto;
-        width: 560px;
+        width: 640px;
         padding-left: 0;
         margin-left: 0;
     }
