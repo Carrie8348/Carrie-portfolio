@@ -103,7 +103,7 @@ footer > a:hover{
    grid-row-gap:5px;
    grid-template-columns: auto auto auto;
    padding: 10px;
-   margin-left: 80px;
+   margin-left: 100px;
 }
 
 .gallery {
