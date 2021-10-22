@@ -299,8 +299,9 @@ h3 {
     }
 
     .bio-text  {
+         clear:both;
          text-align: left;
-         padding-left: 50px;
+         padding-left: 40px;
     }
 
     #bio-pic img {
@@ -400,13 +401,14 @@ h3 {
         width: 70%;
         float: left;
         padding: 0;
-        padding-left: 35px;
+        padding-left: 40px;
 
     }
 
     .bio-text {
+        clear: both;
         text-align: left;
-        padding-left: 105px;
+        padding-left: 70px;
     }
 
     #bio-text h2{
