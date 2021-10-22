@@ -111,7 +111,7 @@ footer > a:hover{
 }
 
 .gallery img {
-    width: 380px;
+    width: 350px;
     height: auto;
 }
 
@@ -237,8 +237,8 @@ h3 {
 }
 
 
-/* for middle screen sizes 950px and down */
-@media screen and (max-width: 950px) {
+/* for middle screen sizes 1024px and down */
+@media screen and (max-width: 1024px) {
     #menu {
         clear: left;
         float: left;
@@ -341,7 +341,7 @@ h3 {
     #menu {
         clear: left;
         float: left;
-        margin-left: 5px;
+        margin-left: 15px;
         margin-bottom: 15px;
         line-height: 10px;
         font-size: 78%;
