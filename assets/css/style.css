@@ -229,6 +229,7 @@ h3 {
 /* videos */
 #video {
     clear: both;
+    height: 300px;
 }
 
 .youtube-video iframe {
@@ -321,9 +322,9 @@ h3 {
     /* subpage */
      #video {
         overflow: hidden;
-        padding-bottom: 70%;
+        padding-bottom: 10%;
         position: relative;
-        height: 0;
+        height: 300px;
     }
 
     .youtube-video iframe {
@@ -332,8 +333,8 @@ h3 {
         margin-top: 30px;
         top: 0;
         left: 0;
-        max-width: 90%;
-        height: auto;
+        height: 200%;
+        width: 70%;
     }
 }
 
@@ -428,7 +429,7 @@ h3 {
 
     .youtube-video iframe {
         position: absolute;
-        margin-left: 45px;
+        margin-left: 20px;
         top: 30px;
         left: 0;
         max-width: 70%;
