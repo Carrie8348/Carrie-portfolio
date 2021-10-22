@@ -260,9 +260,9 @@ h3 {
     #main-page-center {
         clear: left;
         float: left;
-        margin-left: 30px;
+        margin-left: 250px;
         margin-bottom: 30px;
-        height: 90%;
+        height: 50%;
     }
 
     #main-page-bg {
@@ -361,6 +361,7 @@ h3 {
         float: left;
         margin-left: 25px;
         margin-bottom: 30px;
+        height: 30%;
     }
 
     #main-page-bg {
