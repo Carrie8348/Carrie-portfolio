@@ -341,7 +341,7 @@ h3 {
     #menu {
         clear: left;
         float: left;
-        margin-left: 15px;
+        margin-left: 8px;
         margin-bottom: 15px;
         line-height: 10px;
         font-size: 78%;
@@ -360,7 +360,7 @@ h3 {
     #main-page-center {
         clear: left;
         float: left;
-        margin-left: 25px;
+        margin-left: 28px;
         margin-bottom: 30px;
         height: 10%;
     }
@@ -386,7 +386,7 @@ h3 {
     }
 
     .gallery img {
-        margin-left: 15px;
+        margin-left: 10px;
         width: 300px;
         height: auto;
     }
@@ -427,7 +427,7 @@ h3 {
 
     .youtube-video iframe {
         position: absolute;
-        margin-left: 90px;
+        margin-left: 60px;
         top: 30px;
         left: 0;
         max-width: 70%;
