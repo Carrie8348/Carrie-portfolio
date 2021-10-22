@@ -426,7 +426,7 @@ h3 {
     .youtube-video iframe {
         position: absolute;
         margin-left: 90px;
-        top: 50px;
+        top: 30px;
         left: 0;
         max-width: 70%;
         height: 70%;
