@@ -103,6 +103,7 @@ footer > a:hover{
    grid-row-gap:5px;
    grid-template-columns: auto auto auto;
    padding: 10px;
+   margin-left: 30px;
 }
 
 .gallery {
@@ -340,7 +341,7 @@ h3 {
     #menu {
         clear: left;
         float: left;
-        margin-left: 20px;
+        margin-left: 15px;
         margin-bottom: 15px;
         line-height: 10px;
         font-size: 78%;
