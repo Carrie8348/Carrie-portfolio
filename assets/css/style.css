@@ -333,7 +333,7 @@ h3 {
         top: 0;
         left: 0;
         max-width: 90%;
-        height: 90%;
+        height: auto;
     }
 }
 
