@@ -276,7 +276,7 @@ h3 {
     /* projects page */
     .page-titles {
         font-size: 70%;
-        height: 60px;
+        height: 30px;
         padding-top: 30px;
     }
 
@@ -285,7 +285,7 @@ h3 {
     }
 
     .gallery img {
-        margin-left: 40px;
+        margin-left: 20px;
         width: 350px;
         height: auto;
     }
@@ -303,10 +303,10 @@ h3 {
 
     #bio-pic img {
         clear: both;
-        width: 98%;
+        width: 90%;
         float: left;
         padding: 0;
-        margin-left: 35px;
+        margin-left: 30px;
         margin-bottom: 30px;
     }
 
@@ -371,7 +371,7 @@ h3 {
     /* projects page */
     .page-titles {
         font-size: 70%;
-        height: 60px;
+        height: 30px;
         padding-top: 30px;
     }
 
@@ -380,7 +380,7 @@ h3 {
     }
 
     .gallery img {
-        margin-left: 50px;
+        margin-left: 40px;
         width: 300px;
         height: auto;
     }
@@ -396,7 +396,7 @@ h3 {
         width: 70%;
         float: left;
         padding: 0;
-        padding-left: 50px;
+        padding-left: 35px;
 
     }
 
