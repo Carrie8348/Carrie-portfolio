@@ -324,14 +324,14 @@ h3 {
         overflow: hidden;
         padding-bottom: 10%;
         position: relative;
-        height: 100%;
+        height: 40%;
     }
 
     .youtube-video iframe {
         position: relative;
         margin-left: 120px;
-        margin-top: 30px;
-        padding-top:30px;
+        margin-top: 20px;
+        padding-top:20px;
         padding-left:100px;
         padding-right: 30px;
     }
