@@ -132,11 +132,11 @@ CSS Validator Results:
 
 ---
 Deployment
-
+This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
 
 ---
 Content
-
+All content in this website, About me, the Illustration on the main page, the stop-motion videos, are all created by me.
 
 
 
