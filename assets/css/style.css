@@ -55,7 +55,6 @@ h1 {
 .page-titles {
     clear: both;
     text-align: center;
-  
 }
 
 /* footer */
@@ -426,8 +425,8 @@ h3 {
 
     .youtube-video iframe {
         position: absolute;
-        margin-left: 30px;
-        top: 0;
+        margin-left: 90px;
+        top: 50px;
         left: 0;
         max-width: 70%;
         height: 70%;
