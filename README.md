@@ -115,9 +115,20 @@ For employers or potential partners, I'd love to provide them with what I have d
 - CSS Validator: Testing validity of CSS.
 ---
 **Testing**
-HTML Validator results:
-![index](../html/w3c-index.png)
+HTML Validator Results:
+![index](assets/validator/w3c-index.png)
+![project](assets/validator/w3c-project.png)
+![about](assets/validator/w3c-about.png)
+![contact](assets/validator/w3c-contact.png)
+![sub01](assets/validator/w3c-sub01.png)
+![sub02](assets/validator/w3c-sub02.png)
+![sub03](assets/validator/w3c-sub03.png)
+![sub04](assets/validator/w3c-sub04.png)
+![sub05](assets/validator/w3c-sub05.png)
+![sub06](assets/validator/w3c-sub06.png)
 
+CSS Validator Results:
+![css](assets/validator/css-validator.png)
 
 ---
 Deployment
