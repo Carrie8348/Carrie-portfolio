@@ -388,7 +388,7 @@ h3 {
     #container {
         grid-template-columns: auto;
         margin-left: 0px;
-        margin-right: 20px;
+        margin-right:100px;
         padding: 5%;
     }
 
