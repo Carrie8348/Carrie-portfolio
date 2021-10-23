@@ -387,6 +387,7 @@ h3 {
     #container {
         grid-template-columns: auto;
         margin-left: 0px;
+        padding: 5%;
     }
 
     .gallery img {
