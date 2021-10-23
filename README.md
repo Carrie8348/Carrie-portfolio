@@ -129,7 +129,9 @@ HTML Validator Results:
 
 CSS Validator Results:
 ![css](assets/validator/css-validator.png)
-
+---
+**Mock Up**
+![mockup](assets/images/mock-up.png)
 ---
 Deployment
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
