@@ -386,10 +386,10 @@ h3 {
 
     #container {
         grid-template-columns: auto;
+        margin-left: -200px;
     }
 
     .gallery img {
-        margin-left: -200px;
         width: 300px;
         height: auto;
     }
@@ -430,7 +430,7 @@ h3 {
 
     .youtube-video iframe {
         position: absolute;
-        margin-left: -85px;
+        margin-left: -78px;
         top: 30px;
         left: -200;
         width: 70%;
