@@ -386,6 +386,7 @@ h3 {
 
     #container {
         grid-template-columns: auto;
+        margin-left: 50%;
     }
 
     .gallery img {
@@ -425,7 +426,7 @@ h3 {
         overflow: hidden;
         padding-bottom: 50%;
         position: relative;
-        height: 0;
+        width: 100%;
     }
 
     .youtube-video iframe {
