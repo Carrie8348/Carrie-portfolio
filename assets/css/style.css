@@ -344,7 +344,7 @@ h3 {
     #menu {
         clear: left;
         float: left;
-        margin-left: 5px;
+        margin-left: 6px;
         margin-bottom: 15px;
         line-height: 10px;
         font-size: 78%;
@@ -430,7 +430,7 @@ h3 {
 
     .youtube-video iframe {
         position: absolute;
-        margin-left: -40px;
+        margin-left: 10px;
         top: 30px;
         left: 0;
         width: 70%;
