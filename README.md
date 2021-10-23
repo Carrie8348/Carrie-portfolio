@@ -113,6 +113,8 @@ For employers or potential partners, I'd love to provide them with what I have d
 **Testing:**
 - HTML Validator: Testing validity of HTML.
 - CSS Validator: Testing validity of CSS.
+- I also use "Everysize" Website to test my responsive displays
+![everysize](assets/images/everysize.png)
 ---
 **Testing**
 HTML Validator Results:

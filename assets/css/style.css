@@ -390,6 +390,7 @@ h3 {
     }
 
     .gallery img {
+        padding-left: 0;
         width: 300px;
         height: auto;
     }
@@ -430,7 +431,7 @@ h3 {
 
     .youtube-video iframe {
         position: absolute;
-        margin-left: -84px;
+        margin-left: -90px;
         top: 30px;
         left: -200;
         width: 70%;
