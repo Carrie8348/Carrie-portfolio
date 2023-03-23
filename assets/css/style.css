@@ -53,7 +53,7 @@ h1 {
 
 /* page titles */
 .page-titles {
-    
+    padding-top:30px;
     clear: both;
     text-align: center;
 }
@@ -62,7 +62,7 @@ h1 {
 footer {
     position: fixed;
     clear: both;
-    height: 150px;
+    height: 130px;
     bottom: 0;
     width: 100%;
 }
@@ -140,6 +140,10 @@ footer > a:hover{
 .gallery img {
     width: 350px;
     height: auto;
+}
+
+#video-lists{
+   bottom: auto;
 }
 
 
@@ -269,8 +273,8 @@ h3 {
 }
 
 
-/* for middle screen sizes 1112px and down */
-@media screen and (max-width: 1112px) {
+/* for middle screen sizes 900px and down */
+@media screen and (max-width: 900px) {
     #menu {
         clear: left;
         float: left;
@@ -382,8 +386,8 @@ h3 {
     }
 }
 
-/* for small screen sizes 800px and down */
-@media screen and (max-width: 800px) {
+/* for small screen sizes 768px and down */
+@media screen and (max-width: 768px) {
     #menu {
         clear: left;
         float: left;
@@ -424,7 +428,8 @@ h3 {
     .page-titles {
         font-size: 70%;
         height: 30px;
-        padding-top: 30px;
+        padding-top: 20px;
+        position: relative;
     }
 
     #container {
