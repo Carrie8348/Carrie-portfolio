@@ -53,14 +53,18 @@ h1 {
 
 /* page titles */
 .page-titles {
+    
     clear: both;
     text-align: center;
 }
 
 /* footer */
 footer {
+    position: fixed;
     clear: both;
     height: 150px;
+    bottom: 0;
+    width: 100%;
 }
 
 .social-networks {
@@ -98,14 +102,36 @@ footer > a:hover{
 
 /* project page */
 
-#container {
-   display: grid;
-   grid-row-gap:5px;
-   grid-template-columns: auto auto auto;
-   padding: 10px;
-   margin-left: 120px;
-   margin-top: 30px;
+#container-category {
+    display: grid;
+    grid-row-gap:5px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    margin-left: 30px;
+    margin-top: 40px;
 }
+
+.category {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.category img {
+    max-width: 55%;
+    height: auto;
+    margin-top: 10px;
+  }
+
+/* stop-motion page */
+#container {
+    display: grid;
+    grid-row-gap:5px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    margin-left: 120px;
+    margin-top: 30px;
+ }
 
 .gallery {
     padding: 20px;
@@ -115,6 +141,8 @@ footer > a:hover{
     width: 350px;
     height: auto;
 }
+
+
 
 h3 {
     font-family: 'Bangers', serif;
@@ -286,16 +314,30 @@ h3 {
         padding-top: 30px;
     }
 
+    #container-category {
+        grid-template-columns: auto auto;
+        margin-top: 3px;
+    }
+
+    .category img {
+        margin-left: 20px;
+        width: 80%;
+        height: auto;
+    }
+
     #container {
         grid-template-columns: auto auto;
         margin-top: 3px;
     }
+
 
     .gallery img {
         margin-left: 20px;
         width: 80%;
         height: auto;
     }
+
+   
 
     /* about page */
     
